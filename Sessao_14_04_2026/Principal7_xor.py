@@ -9,3 +9,8 @@ while True:
         ligar_luz = True
     else:
         ligar_luz = False
+
+    if (interruptor_A ^ interruptor_B):
+        ligar_luz=  True
+    else:
+        ligar_luz=False
